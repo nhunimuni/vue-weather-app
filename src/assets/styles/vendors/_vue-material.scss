@@ -12,6 +12,12 @@
 
 @import "~vue-material/dist/theme/all"; // Apply the theme
 
+.md-empty-state-container,
+.md-empty-state {
+  transition: none;
+  will-change: unset;
+}
+
 // .md-content {
 //   width: 100px;
 //   height: 100px;
